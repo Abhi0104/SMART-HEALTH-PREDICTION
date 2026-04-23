@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style3.css') }}">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+
+<style>
+</style>
+
+<div id='background'>
+<head>
+      <title>Smart Health Prediction System</title>
+</head>
+
+<br>
+
+<br>
+<h1>Hospitals & Clinics</h1>
+<br>
+<h2>Select your disease/condition and location to get a list of hospitals with treatment available for those diseases.</h2>
+<br>
+</div>
+
+<br>
+<br>
+<br>
+
+<form action="{{ url_for('main3') }}" method="POST">
+  <label for="disease">Choose the disease:</label>
+  <select id="disease" name="disease">
+
+  	 {% for dis in diseases %}
+        <option value= "{{dis}}">{{dis}}</option>"
+    {% endfor %}
+
+    
+  </select>
+  <br>
+  <br>
+
+
+<label for="city">Choose the city:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+  <select id="city" name="city">
+
+
+      {% for cit in cities %}
+        <option value= "{{cit}}">{{cit}}</option>"
+      {% endfor %}
+               
+
+    
+  </select>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  
+  <input type="submit">
+</form>
+
+<div id="info">
+{% if disease %}
+<h3>The selected disease is : {{disease}}</h3>
+{% endif %}
+
+<br>
+
+{% if city %}
+<h3>The selected city is : {{city}}</h3>
+{% endif %}
+</div>
+
+<br>
+<br>
+
+
+{% if final_hospitals %}
+
+
+{% if city %}
+
+<table id="hospital">
+  <tr>
+    <th id="first">Hospital & Doctor</th>
+    <th id="sec">Address</th>
+    <th id="thi">Contact Details</th>
+  </tr>
+
+{% for i in range (0,3) %}
+<tr>
+    <td>{{final_hospitals[i]}}</td>
+    <td>{{final_address[i]}}</td>
+    <td>{{final_contact[i]}}</td>
+</tr>
+{% endfor %}
+</table>
+
+{% endif %}
+{% endif %}
+
+
+
+</html>

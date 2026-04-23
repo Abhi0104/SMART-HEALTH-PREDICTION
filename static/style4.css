@@ -1,0 +1,110 @@
+*{
+  margin:0;
+  padding:0;
+  
+}
+
+#background
+{
+	background-color: #005ce6;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	color: white;
+	  
+}
+
+h1,h2 
+{
+  text-align: center;
+}
+
+
+
+#form_comment
+{
+	padding-left: 235px;
+	padding-top: 50px;
+}
+
+textarea
+{
+ width: 50%;
+ border: none; 
+ background: #E8E8E8;
+ padding: 5px 10px;
+ height: 50%;
+ border-radius: 5px 5px 0px 0px;
+ border-bottom: 2px solid #016BA8;
+ transition: all 0.5s;
+ margin-top: 15px;
+ }
+
+input[type=text]
+{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background: #E8E8E8;
+	border: none;
+	border-radius: 5px 5px 0px 0px;
+}
+
+#comments1
+{
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: : center;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	background-color: #E8E8E8;
+	border-radius: 15px 15px 0px 0px;
+	font-size: 20px;
+	
+}
+
+#border1
+{
+	border-bottom: 0.5px solid #016BA8;
+	width: 100%;
+	padding-top: 5px;
+	
+
+}
+
+#body1
+{
+	padding-left: 400px;
+	padding-right: 400px;
+}
+
+#home
+{
+  padding-left: 1350px;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: white;
+}
+
+
+#home a:visited 
+{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+#home a:hover 
+{
+  color: #d9d9d9;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+input[type=submit]
+{
+  padding-left: 35px;
+  background-color: #005ce6;
+  border-radius: 0.5em;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 5px 2px;
+  cursor: pointer;
+}

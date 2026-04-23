@@ -1,0 +1,54 @@
+.login {
+  width: 100vw;
+  height: calc(100vh - 70px);
+  display: grid;
+  place-items: center;
+}
+
+.login-card {
+  padding: 50px 50px;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+.login-rows {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid #222;
+}
+.login-btn {
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+  background-color:darkblue;
+  color: aliceblue;
+}
+.login-bar {
+  height: 50px;
+  width: 2px;
+  background-color: #222;
+  margin: 5px 10px;
+}
+.login-icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.login-rows-signup-link {
+  color: #222;
+}
+.login-rows-signup-link:hover {
+  color:blue;
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,170 @@
+*{
+  margin:0;
+  padding:0;
+  
+}
+
+h1
+{
+  text-align: center;
+}
+h2 
+{
+  text-align: center;
+
+}
+h3
+{
+  font-family: "Trebuchet MS", 'Helvetica', sans-serif;
+}
+.newhome-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.navbar-profile-btn {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #fff;
+}
+body
+{
+    font-family: "Tahoma", "Geneva", sans-serif;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-left: 5px;
+
+}
+
+#background
+{
+  
+  background-color: #005ce6;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: white;
+  
+}
+
+#wrapper1
+{
+  padding-left: 40px;
+  width:1500px;
+  clear:both;
+}
+
+#skin
+{
+    width:310px;
+    float:left;
+}
+#cold
+{
+    width:310px;
+    float:left;
+}
+#pain
+{
+    width:310px;
+    float:left;
+}
+#stomach
+{
+    width:260px;
+    float:left;
+}
+#face
+{
+    width:310px;
+    float:left;
+}
+
+#wrapper2
+{
+  padding-left: 40px;
+  width:1500px;
+  clear:both;
+}
+#heart
+{
+    width:360px;
+    float:left;
+}
+#general
+{
+    width:280px;
+    float:left;
+}
+#general1
+{
+    width:280px;
+    float:left;
+}
+#urine
+{
+    width:280px;
+    float:left;
+}
+#mental
+{
+    width:300px;
+    float:left;
+}
+#wrapper3
+{
+  width:1500px;
+  clear:both;
+}
+#final
+{
+    width:1500px;
+    text-align: center;
+}
+
+a:visited 
+{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover 
+{
+  color: grey;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+input[type=submit]
+{
+  background-color: #005ce6;
+  border-radius: 0.5em;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#home
+{
+  padding-left: 1350px;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: white;
+}
+
+#home a:visited 
+{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+#home a:hover 
+{
+  color: #d9d9d9;
+  background-color: transparent;
+  text-decoration: underline;
+}

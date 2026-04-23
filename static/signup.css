@@ -1,0 +1,46 @@
+.signup {
+  width: 100vw;
+  height: calc(100vh - 70px);
+  display: grid;
+  place-items: center;
+}
+.signup-card {
+  padding: 50px;
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+.signup-input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #222;
+  padding: 5px;
+  margin: 5px;
+}
+.signup-rows {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup-bar {
+  height: 50px;
+  width: 2px;
+  background-color: #222;
+  margin: 5px 10px;
+}
+.signup-btn {
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+  background-color:darkblue;
+  color: aliceblue;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.login-rows-signup-link:hover {
+  color:blue;
+  text-decoration: underline;
+}

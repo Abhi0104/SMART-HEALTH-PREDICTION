@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="../static/profile.css" />
+  </head>
+  <body style="background: rgb(69,230,252);
+  background: linear-gradient(90deg, rgba(69,230,252,1) 0%, rgba(39,220,249,1) 54%);">
+    <div class="navbar">
+      <a class="find-btn" href="{{url_for('shp')}}">Predict New</a>
+      <h1>{{userLog["fullname"]}}</h1>
+      <a class="find-btn" href="{{url_for('logout')}}">Logout</a>
+    </div>
+    <div class="base">
+      <div class="table-head">
+        <h1>Your Predictions</h1>
+      </div>
+      <div class="table-row">
+        <div class="columns-heads">Sr No</div>
+        <div class="columns-heads">Symptoms</div>
+        <div class="columns-heads">Disease</div>
+      </div>
+
+      <div class="table-row box">
+        {% for i in predList %}
+        <div class="columns-heads">{{ loop.index}}</div>
+        <div class="columns-heads">{{i.symptoms}}</div>
+        <div class="columns-heads">{{i.prediction}}</div>
+        {% endfor %}
+      </div>
+    </div>
+  </body>
+</html>

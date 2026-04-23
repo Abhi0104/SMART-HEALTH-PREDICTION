@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="../static/signup.css" />
+  </head>
+  <body style="background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 5%, rgba(0,212,255,1) 54%);">
+    <form action="{{ url_for('signup') }}" method="post">
+      <div class="signup">
+        <div class="signup-card">
+          <div class="signup-rows">
+            <h1>Accounts</h1>
+          </div>
+          <div class="signup-rows">
+            <input
+              type="text"
+              name="fullname"
+              placeholder="Enter Fullname"
+              class="signup-input"
+            />
+          </div>
+          <div class="signup-rows">
+            <input
+              type="text"
+              name="email"
+              placeholder="Enter Email"
+              class="signup-input"
+            />
+          </div>
+          <div class="signup-rows">
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter Password"
+              class="signup-input"
+            />
+          </div>
+          <div class="signup-rows">
+            <button type="submit" placeholder="login" class="signup-btn">
+              Signup
+            </button>
+          </div>
+
+          <div class="signup-rows">
+            Have an Account!
+            <a href="./login" class="login-rows-signup-link">Login</a>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

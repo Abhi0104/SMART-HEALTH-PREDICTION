@@ -1,0 +1,141 @@
+*{
+  margin:0;
+  padding:0;
+  
+}
+
+#background
+{
+	background-color: #005ce6;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	color: white;
+	  
+}
+
+form
+{
+	padding-left: 25px;
+}
+
+select {
+  width: 50%;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+h1,h2 
+{
+  text-align: center;
+}
+
+h3{
+  color: blue;
+}
+
+#info{
+	text-align: center;
+	padding-left: 25px;
+	padding-top: 45px;
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-size: 20px;
+}
+
+#hospital
+{
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  border-radius: 1em;
+  overflow: hidden;
+  width: 88%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+#first{
+width:32%;
+}
+#sec{
+width:35%;
+}
+#thi{
+width:21%;
+}
+
+th 
+{
+	background-color: #005ce6;
+	color: white;
+  
+  text-align: center;
+  padding: 15px;
+ 
+}
+
+td 
+{
+  
+  text-align: center;
+  padding: 15px;
+  
+}
+
+tr:nth-child(even) 
+{
+  background-color: #dddddd;
+}
+
+input[type=submit]
+{
+  padding-left: 35px;
+  background-color: #005ce6;
+  border-radius: 0.5em;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited 
+{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover 
+{
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#home
+{
+  padding-left: 1350px;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  color: white;
+}
+
+
+#home a:visited 
+{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+#home a:hover 
+{
+  color: #d9d9d9;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
