@@ -1,0 +1,6 @@
+Flask==2.0.3
+Flask-SQLAlchemy==2.5.1
+SQLAlchemy==1.4.32
+numpy==1.26.4
+pandas==2.3.0
+scikit-learn==1.0.2
