@@ -20,9 +20,12 @@ This project is a machine learning-based web application that predicts diseases 
 
 * Python
 * Flask
+* Html
+* Css
 * SQLite
 * Scikit-learn (KNN)
-* Pandas, NumPy
+* Numpy
+* Pandas
 
 ---
 
@@ -68,6 +71,7 @@ Smart-Health-Prediction/
 │── app.py
 │── new_test_data.csv
 │── requirements.txt
+│── users.sqlite
 │── README.md
 ```
 
